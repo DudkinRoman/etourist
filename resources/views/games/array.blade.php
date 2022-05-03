@@ -1,0 +1,23 @@
+let words={!!json_encode($data)!!};
+let img=new Array;
+let eng=new Array;
+let rus=new Array;
+let audio=new Array;
+let eng0=new Array;
+let rus0=new Array;
+let audio0=new Array;
+let img0=new Array;
+words.forEach((item, i) => {
+      audio[i]=document.createElement('audio');
+      audio0[i]=document.createElement('audio');
+      audio[i].src = "/audio/"+item.id+".mp3";
+      audio0[i].src = "/audio/"+item.id+".mp3";
+      img[i]=document.createElement('img');
+      img0[i]=document.createElement('img');
+      img[i].src = "/pict/"+item.id+".jpg";
+      img0[i].src = "/pict/"+item.id+".jpg";
+      eng[i]=item.eng;
+      eng0[i]=item.eng;
+      rus[i]=item.rus;
+      rus0[i]=item.rus;
+  });

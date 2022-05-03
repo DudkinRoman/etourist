@@ -1,0 +1,95 @@
+.dashboard_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dashboard_link:hover {
+    color: #fde300;
+}
+.app{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.header,
+.footer{
+    padding: 10px;
+    background-color: #fffffc;
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 78px;
+    color: #636b6f;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+
+#index_logo {
+    text-align: center;
+    height: 120px;
+    border: 0;
+}
+
+#article_image {
+    max-width: 700px;
+    text-align: center;
+}
